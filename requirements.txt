@@ -1,0 +1,4 @@
+# Local requirement only: the Modal client used to deploy.
+# Everything else (torch, transformers, gradio…) is installed in the cloud image
+# defined in modal_app.py.
+modal>=1.0
